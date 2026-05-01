@@ -1,0 +1,8 @@
+2026-05-01 22:20:52,245 | INFO | Job started
+2026-05-01 22:20:52,246 | INFO | Config loaded and validated: seed=42, window=5, version=v1
+2026-05-01 22:20:52,303 | INFO | Dataset loaded successfully. Rows loaded: 10000
+2026-05-01 22:20:52,303 | INFO | Computing rolling mean using window=5
+2026-05-01 22:20:52,312 | INFO | Generating binary signal from close vs rolling_mean
+2026-05-01 22:20:52,312 | INFO | Metrics summary: {'version': 'v1', 'rows_processed': 10000, 'metric': 'signal_rate', 'value': 0.4989, 'latency_ms': 71, 'seed': 42, 'status': 'success'}
+2026-05-01 22:20:52,312 | INFO | Metrics written to metrics.json
+2026-05-01 22:20:52,312 | INFO | Job ended with status: success
